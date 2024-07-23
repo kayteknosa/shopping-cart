@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>shopping cart</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <div class="cart">
+        <h1>Shopping Cart</h1>
+        <div class="cart-items">
+            <div class="cart-item">
+            <div class="cart-image-container">
+                <span class="item-price" data-price="10">$10</span>
+                <img src="/img/shoes.jpg" alt="item" class="item-image">
+                <div class="like-container">
+                    <button class="like-item">❤️</button>
+                    <span class="like-count">0</span>
+                </div>
+            </div>
+            <div class="item controls">
+                <button class="quantity-minus">-</button>
+                <span class="item-quantity">1</span>
+                <button class="quantity-plus">+</button>
+                <button class="delete-item">delete</button>
+            </div>
+        </div>
+       </div>
+       <div class="cart-total">
+        <span>Total:</span>
+        <span class="total-price">$10</span>
+      </div>
+   </div>
+ <script src="shop.js"></script>
+</body>
+</html>
